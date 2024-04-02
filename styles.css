@@ -14,7 +14,19 @@ header {
     padding: 20px;
     text-align: center;
 }
+/* 这是添加的 */
+#header1 {
+    background-color: #0965ee;
+}
 
+#header2 {
+    background-color: #09a0f1;
+}
+
+#header3 {
+    background-color: #0ccef0;
+}
+/* 到这里 */
 nav ul {
     list-style-type: none;
 }
@@ -39,4 +51,13 @@ section h2 {
 
 .portfolio-item {
     margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
